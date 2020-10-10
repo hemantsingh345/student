@@ -1,0 +1,113 @@
+html,body
+{
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+
+	background-color:#007FC0;
+}
+
+header,footer{
+		 background-color:#7ECBf3;
+		 border: 1px solid gray;
+		 }
+
+.bodered{
+	border:1px solid #ccc;
+	border-radius: 2px;
+}		
+header nav li
+{
+  display: inline;
+  font-size:12px;
+  padding-right: 10px;
+} 
+a
+{
+	color:#007FC0;
+}
+header nav
+{
+	float:right;
+}
+.Main,header,footer
+{
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ color:gray;
+ margin: 5px 0px 0px 0px;  
+ padding:5px;
+}
+.login-form > form > label{
+	font-weight: bold;
+}
+.login-form input[type=text],
+.login-form input[type=password]
+{
+  width: 150px;
+  margin-top:5px;
+}
+.login-form label
+{
+	width: 120px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.login-form input[type=submit],
+.login-form input[type=reset]{
+	background-color:#007FC0;
+	color:white;
+	border-radius: 15px;
+	padding:3px;
+	margin-top:5px;
+	width: 75px;
+}
+#head-image
+{
+  width:350px;
+  height:65px;
+  margin:5px;
+}
+#main-contant
+{
+	margin: 20px;
+	font-weight: bold;
+
+}
+.container
+{
+	width:95%;
+	margin:0 auto;
+	padding: 5px;
+	background-color: white;
+}
+.login-form
+{
+	display:inline-block;
+	width: 300px
+
+}
+footer
+{
+	padding: 10px;
+	border-radius: 5px;
+}
+#results{
+	vertical-align: top;
+	padding: 2px;
+	width: 300px;
+	display:inline-block;
+	border: 1px solid #ccc;
+}
+.result .title{
+	font-weight: bold;
+}
+.result
+{
+	margin: 5px;
+	border:1px solid black;
+	padding: 10px;
+	border-radius: 10px;
+}
